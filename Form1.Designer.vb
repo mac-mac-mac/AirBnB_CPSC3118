@@ -160,6 +160,7 @@ Partial Class Form1
         Me.Controls.Add(Me.picAirBnB)
         Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Name = "Form1"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Form1"
         CType(Me.picAirBnB, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
