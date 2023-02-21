@@ -47,7 +47,7 @@ Partial Class Form1
         '
         Me.lblHeading.AutoSize = True
         Me.lblHeading.Font = New System.Drawing.Font("Cooper Black", 24.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblHeading.Location = New System.Drawing.Point(464, 23)
+        Me.lblHeading.Location = New System.Drawing.Point(464, 41)
         Me.lblHeading.Name = "lblHeading"
         Me.lblHeading.Size = New System.Drawing.Size(276, 36)
         Me.lblHeading.TabIndex = 1
@@ -57,7 +57,7 @@ Partial Class Form1
         '
         Me.lblMessage.AutoSize = True
         Me.lblMessage.Font = New System.Drawing.Font("Cooper Black", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblMessage.Location = New System.Drawing.Point(523, 71)
+        Me.lblMessage.Location = New System.Drawing.Point(523, 89)
         Me.lblMessage.Name = "lblMessage"
         Me.lblMessage.Size = New System.Drawing.Size(154, 15)
         Me.lblMessage.TabIndex = 2
@@ -67,7 +67,7 @@ Partial Class Form1
         '
         Me.lblNights.AutoSize = True
         Me.lblNights.Font = New System.Drawing.Font("Franklin Gothic Medium Cond", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblNights.Location = New System.Drawing.Point(466, 152)
+        Me.lblNights.Location = New System.Drawing.Point(466, 170)
         Me.lblNights.Name = "lblNights"
         Me.lblNights.Size = New System.Drawing.Size(114, 21)
         Me.lblNights.TabIndex = 3
@@ -76,7 +76,7 @@ Partial Class Form1
         'txtNights
         '
         Me.txtNights.Font = New System.Drawing.Font("Franklin Gothic Medium Cond", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtNights.Location = New System.Drawing.Point(630, 152)
+        Me.txtNights.Location = New System.Drawing.Point(630, 170)
         Me.txtNights.Name = "txtNights"
         Me.txtNights.Size = New System.Drawing.Size(47, 26)
         Me.txtNights.TabIndex = 4
@@ -85,7 +85,7 @@ Partial Class Form1
         '
         Me.lblCost.AutoSize = True
         Me.lblCost.Font = New System.Drawing.Font("Franklin Gothic Medium Cond", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblCost.Location = New System.Drawing.Point(466, 208)
+        Me.lblCost.Location = New System.Drawing.Point(466, 226)
         Me.lblCost.Name = "lblCost"
         Me.lblCost.Size = New System.Drawing.Size(81, 21)
         Me.lblCost.TabIndex = 5
@@ -95,7 +95,7 @@ Partial Class Form1
         '
         Me.lblTotal.AutoSize = True
         Me.lblTotal.Font = New System.Drawing.Font("Franklin Gothic Medium Cond", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblTotal.Location = New System.Drawing.Point(626, 208)
+        Me.lblTotal.Location = New System.Drawing.Point(626, 226)
         Me.lblTotal.Name = "lblTotal"
         Me.lblTotal.Size = New System.Drawing.Size(0, 21)
         Me.lblTotal.TabIndex = 6
@@ -103,7 +103,7 @@ Partial Class Form1
         'btnDisplay
         '
         Me.btnDisplay.Font = New System.Drawing.Font("Franklin Gothic Heavy", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnDisplay.Location = New System.Drawing.Point(447, 334)
+        Me.btnDisplay.Location = New System.Drawing.Point(447, 352)
         Me.btnDisplay.Name = "btnDisplay"
         Me.btnDisplay.Size = New System.Drawing.Size(100, 25)
         Me.btnDisplay.TabIndex = 7
@@ -113,7 +113,7 @@ Partial Class Form1
         'btnClear
         '
         Me.btnClear.Font = New System.Drawing.Font("Franklin Gothic Heavy", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnClear.Location = New System.Drawing.Point(553, 334)
+        Me.btnClear.Location = New System.Drawing.Point(553, 352)
         Me.btnClear.Name = "btnClear"
         Me.btnClear.Size = New System.Drawing.Size(100, 25)
         Me.btnClear.TabIndex = 8
@@ -123,7 +123,7 @@ Partial Class Form1
         'btnExit
         '
         Me.btnExit.Font = New System.Drawing.Font("Franklin Gothic Heavy", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnExit.Location = New System.Drawing.Point(659, 334)
+        Me.btnExit.Location = New System.Drawing.Point(659, 352)
         Me.btnExit.Name = "btnExit"
         Me.btnExit.Size = New System.Drawing.Size(100, 25)
         Me.btnExit.TabIndex = 9
