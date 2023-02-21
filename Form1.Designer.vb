@@ -37,9 +37,12 @@ Partial Class Form1
         '
         'picAirBnB
         '
+        Me.picAirBnB.Image = Global.AirBnB_CPSC3118.My.Resources.Resources.airbnb
         Me.picAirBnB.Location = New System.Drawing.Point(1, 1)
+        Me.picAirBnB.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.picAirBnB.Name = "picAirBnB"
-        Me.picAirBnB.Size = New System.Drawing.Size(400, 450)
+        Me.picAirBnB.Size = New System.Drawing.Size(500, 552)
+        Me.picAirBnB.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.picAirBnB.TabIndex = 0
         Me.picAirBnB.TabStop = False
         '
@@ -47,9 +50,10 @@ Partial Class Form1
         '
         Me.lblHeading.AutoSize = True
         Me.lblHeading.Font = New System.Drawing.Font("Cooper Black", 24.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblHeading.Location = New System.Drawing.Point(464, 41)
+        Me.lblHeading.Location = New System.Drawing.Point(619, 50)
+        Me.lblHeading.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lblHeading.Name = "lblHeading"
-        Me.lblHeading.Size = New System.Drawing.Size(276, 36)
+        Me.lblHeading.Size = New System.Drawing.Size(350, 46)
         Me.lblHeading.TabIndex = 1
         Me.lblHeading.Text = "Orlando AirBnB"
         '
@@ -57,9 +61,10 @@ Partial Class Form1
         '
         Me.lblMessage.AutoSize = True
         Me.lblMessage.Font = New System.Drawing.Font("Cooper Black", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblMessage.Location = New System.Drawing.Point(523, 89)
+        Me.lblMessage.Location = New System.Drawing.Point(697, 110)
+        Me.lblMessage.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lblMessage.Name = "lblMessage"
-        Me.lblMessage.Size = New System.Drawing.Size(154, 15)
+        Me.lblMessage.Size = New System.Drawing.Size(193, 20)
         Me.lblMessage.TabIndex = 2
         Me.lblMessage.Text = "Only $79.00 per night"
         '
@@ -67,27 +72,30 @@ Partial Class Form1
         '
         Me.lblNumberOfNights.AutoSize = True
         Me.lblNumberOfNights.Font = New System.Drawing.Font("Franklin Gothic Medium Cond", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblNumberOfNights.Location = New System.Drawing.Point(466, 170)
+        Me.lblNumberOfNights.Location = New System.Drawing.Point(621, 209)
+        Me.lblNumberOfNights.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lblNumberOfNights.Name = "lblNumberOfNights"
-        Me.lblNumberOfNights.Size = New System.Drawing.Size(114, 21)
+        Me.lblNumberOfNights.Size = New System.Drawing.Size(143, 25)
         Me.lblNumberOfNights.TabIndex = 3
         Me.lblNumberOfNights.Text = "Number of Nights:"
         '
         'txtNumberOfNights
         '
         Me.txtNumberOfNights.Font = New System.Drawing.Font("Franklin Gothic Medium Cond", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtNumberOfNights.Location = New System.Drawing.Point(630, 170)
+        Me.txtNumberOfNights.Location = New System.Drawing.Point(840, 209)
+        Me.txtNumberOfNights.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txtNumberOfNights.Name = "txtNumberOfNights"
-        Me.txtNumberOfNights.Size = New System.Drawing.Size(47, 26)
+        Me.txtNumberOfNights.Size = New System.Drawing.Size(61, 30)
         Me.txtNumberOfNights.TabIndex = 4
         '
         'lblCostOfStay
         '
         Me.lblCostOfStay.AutoSize = True
         Me.lblCostOfStay.Font = New System.Drawing.Font("Franklin Gothic Medium Cond", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblCostOfStay.Location = New System.Drawing.Point(466, 226)
+        Me.lblCostOfStay.Location = New System.Drawing.Point(621, 278)
+        Me.lblCostOfStay.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lblCostOfStay.Name = "lblCostOfStay"
-        Me.lblCostOfStay.Size = New System.Drawing.Size(81, 21)
+        Me.lblCostOfStay.Size = New System.Drawing.Size(103, 25)
         Me.lblCostOfStay.TabIndex = 5
         Me.lblCostOfStay.Text = "Cost of Stay:"
         '
@@ -95,17 +103,19 @@ Partial Class Form1
         '
         Me.lblTotalCost.AutoSize = True
         Me.lblTotalCost.Font = New System.Drawing.Font("Franklin Gothic Medium Cond", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblTotalCost.Location = New System.Drawing.Point(626, 226)
+        Me.lblTotalCost.Location = New System.Drawing.Point(835, 278)
+        Me.lblTotalCost.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lblTotalCost.Name = "lblTotalCost"
-        Me.lblTotalCost.Size = New System.Drawing.Size(0, 21)
+        Me.lblTotalCost.Size = New System.Drawing.Size(0, 25)
         Me.lblTotalCost.TabIndex = 6
         '
         'btnDisplayCost
         '
         Me.btnDisplayCost.Font = New System.Drawing.Font("Franklin Gothic Heavy", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnDisplayCost.Location = New System.Drawing.Point(447, 352)
+        Me.btnDisplayCost.Location = New System.Drawing.Point(596, 433)
+        Me.btnDisplayCost.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btnDisplayCost.Name = "btnDisplayCost"
-        Me.btnDisplayCost.Size = New System.Drawing.Size(100, 25)
+        Me.btnDisplayCost.Size = New System.Drawing.Size(133, 31)
         Me.btnDisplayCost.TabIndex = 7
         Me.btnDisplayCost.Text = "Display Cost"
         Me.btnDisplayCost.UseVisualStyleBackColor = True
@@ -113,9 +123,10 @@ Partial Class Form1
         'btnClear
         '
         Me.btnClear.Font = New System.Drawing.Font("Franklin Gothic Heavy", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnClear.Location = New System.Drawing.Point(553, 352)
+        Me.btnClear.Location = New System.Drawing.Point(737, 433)
+        Me.btnClear.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btnClear.Name = "btnClear"
-        Me.btnClear.Size = New System.Drawing.Size(100, 25)
+        Me.btnClear.Size = New System.Drawing.Size(133, 31)
         Me.btnClear.TabIndex = 8
         Me.btnClear.Text = "Clear"
         Me.btnClear.UseVisualStyleBackColor = True
@@ -123,19 +134,20 @@ Partial Class Form1
         'btnExit
         '
         Me.btnExit.Font = New System.Drawing.Font("Franklin Gothic Heavy", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnExit.Location = New System.Drawing.Point(659, 352)
+        Me.btnExit.Location = New System.Drawing.Point(879, 433)
+        Me.btnExit.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btnExit.Name = "btnExit"
-        Me.btnExit.Size = New System.Drawing.Size(100, 25)
+        Me.btnExit.Size = New System.Drawing.Size(133, 31)
         Me.btnExit.TabIndex = 9
         Me.btnExit.Text = "Exit"
         Me.btnExit.UseVisualStyleBackColor = True
         '
         'Form1
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.DarkKhaki
-        Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.ClientSize = New System.Drawing.Size(1067, 554)
         Me.Controls.Add(Me.btnExit)
         Me.Controls.Add(Me.btnClear)
         Me.Controls.Add(Me.btnDisplayCost)
@@ -146,6 +158,7 @@ Partial Class Form1
         Me.Controls.Add(Me.lblMessage)
         Me.Controls.Add(Me.lblHeading)
         Me.Controls.Add(Me.picAirBnB)
+        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Name = "Form1"
         Me.Text = "Form1"
         CType(Me.picAirBnB, System.ComponentModel.ISupportInitialize).EndInit()
