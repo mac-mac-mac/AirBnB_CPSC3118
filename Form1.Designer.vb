@@ -22,26 +22,26 @@ Partial Class Form1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.picAirbnb = New System.Windows.Forms.PictureBox()
+        Me.picAirBnB = New System.Windows.Forms.PictureBox()
         Me.lblHeading = New System.Windows.Forms.Label()
         Me.lblMessage = New System.Windows.Forms.Label()
-        Me.lblNights = New System.Windows.Forms.Label()
-        Me.txtNights = New System.Windows.Forms.TextBox()
-        Me.lblCost = New System.Windows.Forms.Label()
-        Me.lblTotal = New System.Windows.Forms.Label()
-        Me.btnDisplay = New System.Windows.Forms.Button()
+        Me.lblNumberOfNights = New System.Windows.Forms.Label()
+        Me.txtNumberOfNights = New System.Windows.Forms.TextBox()
+        Me.lblCostOfStay = New System.Windows.Forms.Label()
+        Me.lblTotalCost = New System.Windows.Forms.Label()
+        Me.btnDisplayCost = New System.Windows.Forms.Button()
         Me.btnClear = New System.Windows.Forms.Button()
         Me.btnExit = New System.Windows.Forms.Button()
-        CType(Me.picAirbnb, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.picAirBnB, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
-        'picAirbnb
+        'picAirBnB
         '
-        Me.picAirbnb.Location = New System.Drawing.Point(1, 1)
-        Me.picAirbnb.Name = "picAirbnb"
-        Me.picAirbnb.Size = New System.Drawing.Size(400, 450)
-        Me.picAirbnb.TabIndex = 0
-        Me.picAirbnb.TabStop = False
+        Me.picAirBnB.Location = New System.Drawing.Point(1, 1)
+        Me.picAirBnB.Name = "picAirBnB"
+        Me.picAirBnB.Size = New System.Drawing.Size(400, 450)
+        Me.picAirBnB.TabIndex = 0
+        Me.picAirBnB.TabStop = False
         '
         'lblHeading
         '
@@ -63,52 +63,52 @@ Partial Class Form1
         Me.lblMessage.TabIndex = 2
         Me.lblMessage.Text = "Only $79.00 per night"
         '
-        'lblNights
+        'lblNumberOfNights
         '
-        Me.lblNights.AutoSize = True
-        Me.lblNights.Font = New System.Drawing.Font("Franklin Gothic Medium Cond", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblNights.Location = New System.Drawing.Point(466, 170)
-        Me.lblNights.Name = "lblNights"
-        Me.lblNights.Size = New System.Drawing.Size(114, 21)
-        Me.lblNights.TabIndex = 3
-        Me.lblNights.Text = "Number of Nights:"
+        Me.lblNumberOfNights.AutoSize = True
+        Me.lblNumberOfNights.Font = New System.Drawing.Font("Franklin Gothic Medium Cond", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblNumberOfNights.Location = New System.Drawing.Point(466, 170)
+        Me.lblNumberOfNights.Name = "lblNumberOfNights"
+        Me.lblNumberOfNights.Size = New System.Drawing.Size(114, 21)
+        Me.lblNumberOfNights.TabIndex = 3
+        Me.lblNumberOfNights.Text = "Number of Nights:"
         '
-        'txtNights
+        'txtNumberOfNights
         '
-        Me.txtNights.Font = New System.Drawing.Font("Franklin Gothic Medium Cond", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtNights.Location = New System.Drawing.Point(630, 170)
-        Me.txtNights.Name = "txtNights"
-        Me.txtNights.Size = New System.Drawing.Size(47, 26)
-        Me.txtNights.TabIndex = 4
+        Me.txtNumberOfNights.Font = New System.Drawing.Font("Franklin Gothic Medium Cond", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtNumberOfNights.Location = New System.Drawing.Point(630, 170)
+        Me.txtNumberOfNights.Name = "txtNumberOfNights"
+        Me.txtNumberOfNights.Size = New System.Drawing.Size(47, 26)
+        Me.txtNumberOfNights.TabIndex = 4
         '
-        'lblCost
+        'lblCostOfStay
         '
-        Me.lblCost.AutoSize = True
-        Me.lblCost.Font = New System.Drawing.Font("Franklin Gothic Medium Cond", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblCost.Location = New System.Drawing.Point(466, 226)
-        Me.lblCost.Name = "lblCost"
-        Me.lblCost.Size = New System.Drawing.Size(81, 21)
-        Me.lblCost.TabIndex = 5
-        Me.lblCost.Text = "Cost of Stay:"
+        Me.lblCostOfStay.AutoSize = True
+        Me.lblCostOfStay.Font = New System.Drawing.Font("Franklin Gothic Medium Cond", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblCostOfStay.Location = New System.Drawing.Point(466, 226)
+        Me.lblCostOfStay.Name = "lblCostOfStay"
+        Me.lblCostOfStay.Size = New System.Drawing.Size(81, 21)
+        Me.lblCostOfStay.TabIndex = 5
+        Me.lblCostOfStay.Text = "Cost of Stay:"
         '
-        'lblTotal
+        'lblTotalCost
         '
-        Me.lblTotal.AutoSize = True
-        Me.lblTotal.Font = New System.Drawing.Font("Franklin Gothic Medium Cond", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblTotal.Location = New System.Drawing.Point(626, 226)
-        Me.lblTotal.Name = "lblTotal"
-        Me.lblTotal.Size = New System.Drawing.Size(0, 21)
-        Me.lblTotal.TabIndex = 6
+        Me.lblTotalCost.AutoSize = True
+        Me.lblTotalCost.Font = New System.Drawing.Font("Franklin Gothic Medium Cond", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblTotalCost.Location = New System.Drawing.Point(626, 226)
+        Me.lblTotalCost.Name = "lblTotalCost"
+        Me.lblTotalCost.Size = New System.Drawing.Size(0, 21)
+        Me.lblTotalCost.TabIndex = 6
         '
-        'btnDisplay
+        'btnDisplayCost
         '
-        Me.btnDisplay.Font = New System.Drawing.Font("Franklin Gothic Heavy", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnDisplay.Location = New System.Drawing.Point(447, 352)
-        Me.btnDisplay.Name = "btnDisplay"
-        Me.btnDisplay.Size = New System.Drawing.Size(100, 25)
-        Me.btnDisplay.TabIndex = 7
-        Me.btnDisplay.Text = "Display Cost"
-        Me.btnDisplay.UseVisualStyleBackColor = True
+        Me.btnDisplayCost.Font = New System.Drawing.Font("Franklin Gothic Heavy", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnDisplayCost.Location = New System.Drawing.Point(447, 352)
+        Me.btnDisplayCost.Name = "btnDisplayCost"
+        Me.btnDisplayCost.Size = New System.Drawing.Size(100, 25)
+        Me.btnDisplayCost.TabIndex = 7
+        Me.btnDisplayCost.Text = "Display Cost"
+        Me.btnDisplayCost.UseVisualStyleBackColor = True
         '
         'btnClear
         '
@@ -138,30 +138,30 @@ Partial Class Form1
         Me.ClientSize = New System.Drawing.Size(800, 450)
         Me.Controls.Add(Me.btnExit)
         Me.Controls.Add(Me.btnClear)
-        Me.Controls.Add(Me.btnDisplay)
-        Me.Controls.Add(Me.lblTotal)
-        Me.Controls.Add(Me.lblCost)
-        Me.Controls.Add(Me.txtNights)
-        Me.Controls.Add(Me.lblNights)
+        Me.Controls.Add(Me.btnDisplayCost)
+        Me.Controls.Add(Me.lblTotalCost)
+        Me.Controls.Add(Me.lblCostOfStay)
+        Me.Controls.Add(Me.txtNumberOfNights)
+        Me.Controls.Add(Me.lblNumberOfNights)
         Me.Controls.Add(Me.lblMessage)
         Me.Controls.Add(Me.lblHeading)
-        Me.Controls.Add(Me.picAirbnb)
+        Me.Controls.Add(Me.picAirBnB)
         Me.Name = "Form1"
         Me.Text = "Form1"
-        CType(Me.picAirbnb, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.picAirBnB, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
     End Sub
 
-    Friend WithEvents picAirbnb As PictureBox
+    Friend WithEvents picAirBnB As PictureBox
     Friend WithEvents lblHeading As Label
     Friend WithEvents lblMessage As Label
-    Friend WithEvents lblNights As Label
-    Friend WithEvents txtNights As TextBox
-    Friend WithEvents lblCost As Label
-    Friend WithEvents lblTotal As Label
-    Friend WithEvents btnDisplay As Button
+    Friend WithEvents lblNumberOfNights As Label
+    Friend WithEvents txtNumberOfNights As TextBox
+    Friend WithEvents lblCostOfStay As Label
+    Friend WithEvents lblTotalCost As Label
+    Friend WithEvents btnDisplayCost As Button
     Friend WithEvents btnClear As Button
     Friend WithEvents btnExit As Button
 End Class
